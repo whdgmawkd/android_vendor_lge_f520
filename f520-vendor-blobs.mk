@@ -4,8 +4,6 @@
 # VenderGenerator version: 0.2b
 # Generated on: 2016-08-17 01:48:04
 PRODUCT_COPY_FILES += \
-    vendor/lge/f520/proprietary/app/shutdownlistener/shutdownlistener.apk:system/app/shutdownlistener/shutdownlistener.apk \
-    vendor/lge/f520/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
     vendor/lge/f520/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/f520/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/f520/proprietary/bin/irsc_util:system/bin/irsc_util \
@@ -321,7 +319,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/f520/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/lge/f520/proprietary/vendor/lib/libchromatix_imx219_common.so:system/vendor/lib/libchromatix_imx219_common.so \
     vendor/lge/f520/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/lge/f520/proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk \
     vendor/lge/f520/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/lge/f520/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
     vendor/lge/f520/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \

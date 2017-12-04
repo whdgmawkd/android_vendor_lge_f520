@@ -18,7 +18,8 @@
 DEVICE_PACKAGE_OVERLAYS := vendor/lge/f520/overlay
 
 PRODUCT_PACKAGES += \
-    shutdownlistener
+    shutdownlistener \
+    qcrilmsgtunnel
 
 PRODUCT_PACKAGES += \
     libbtnv \
@@ -35,6 +36,6 @@ PRODUCT_PACKAGES += \
     libqmi_csi \
     libqmi_cci \
     libqmi_common_so \
-    libdsi_netctrl
+    libdsi_netctrl \
 
 $(call inherit-product, vendor/lge/f520/f520-vendor-blobs.mk)
